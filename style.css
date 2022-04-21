@@ -1,0 +1,86 @@
+/* Anular todos los estilos */
+* {
+    /* Establecer valores a 0 */
+    margin: 0;
+    padding: 0;
+
+    /* Incluir el valor del border y padding dentro del control */
+    box-sizing: border-box;
+}
+
+.wrap{
+    /* Ancho */
+    width: 80%;
+
+    /* Ancho máximo */
+    max-width: 950px;
+
+    /* Relleno del contenedor */
+    padding: 10px;
+
+    /* Centrar el contenedor */
+    margin: auto;
+}
+
+/* Logotipo */
+header h1{
+    /* Tamaño de la fuente */
+    font-size: 2em;
+
+    /* Margen */
+    margin-bottom: 0.5em;
+
+    /* Mayúsculas */
+    text-transform: uppercase;
+}
+
+header nav{
+    /* Margen inferior: 2X */
+    margin-bottom: 2%;
+}
+
+/* Listado de los elementos del menú */
+header nav ul{
+    /* Forma de ubicar los elementos */
+    display: flex;
+
+    /* Color */
+    color: #00f;
+
+    /* Quitar la numeración */
+    list-style: none;
+}
+
+/* Elementos del menú */
+header nav ul li a{
+    /* Márgenes */
+    margin: 15px;
+
+    /* Quitar características: subrayado */
+    text-decoration: none;
+}
+
+/* Elementos del menú: MouseOver */
+header nav ul li a:hover{
+    /* Color */
+    color: #000;
+}
+
+main section{
+    /* Borde */
+    border: 2px solid #F00;
+
+    /* Color de Fondo */
+    background-color: #808080;
+
+    /* Color de letra */
+    color:#FFF;
+}
+
+main section header h2{
+    /* Color del encabezado */
+    color: #F00;
+
+    /* Tipo de Fuente */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
